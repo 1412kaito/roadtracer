@@ -34,12 +34,14 @@ func main() {
 		motorwayEdges[i] = make(map[int]bool)
 		tunnelEdges[i] = make(map[int]bool)
 	}
+	fmt.Println("start loadOSMMultiple")
 	graphs, err := common.LoadOSMMultiple(pbfFname, boundList, common.OSMOptions{
 		Verbose: true,
 		NoParking: true,
 		MotorwayEdges: motorwayEdges,
 		TunnelEdges: tunnelEdges,
 	})
+	fmt.Println("fin loadOSMMultiple")
 	if err != nil {
 		panic(err)
 	}
