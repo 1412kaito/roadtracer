@@ -11,6 +11,7 @@ const ZOOM = 18
 
 var regionMap map[string][4]float64 = map[string][4]float64{
 	"surabaya-tengah-kota": [4]float64{-7.259136, 112.747124, -7.259136, 112.747124},
+	"alun-alun-malang": [4]float64{-7.97710, 112.63412, -7.97710, 112.63412},
 }
 
 type Region struct {
