@@ -13,7 +13,8 @@ var regionMap map[string][4]float64 = map[string][4]float64{
 // 	"surabaya-tengah-kota": [4]float64{-7.259136, 112.747124, -7.259136, 112.747124},
 // 	"alun-alun-malang": [4]float64{-7.97710, 112.63412, -7.97710, 112.63412},
 // 	"chicago": [4]float64{41.903117, -87.679072, 41.90, -87.67},
-	"sby-atum": [4]float64{-7.241825, 112.743753, -7.241825, 112.743753},
+//	"sby-atum": [4]float64{-7.241825, 112.743753, -7.241825, 112.743753},
+    "sby-citraland": [4]float64{-7.29647, 112.64722, -7.29647, 112.64722},
 }
 
 type Region struct {
